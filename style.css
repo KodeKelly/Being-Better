@@ -1,45 +1,60 @@
-header{
-  font-size: 100px;
+body{
+  background-color: black;
   text-align: center;
-  margin-bottom: 100px;
+
 }
 
-
-.Reading{
-  display: inline-block;
-  border: solid black 2px;
-  width: 500px;
-  height: 500px;
+header{
+  color: green;
+  font-size: 100px;
   text-align: center;
   margin-bottom: 50px;
+}
+
+h2{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 30%;
+
+}
+
+.Reading{
+  background-image: url("reading.jpeg");
+  border: solid black 2px;
+  width: 400px;
+  height: 400px;
 }
 
 .Coding{
-  display: inline-block;
+  background-image: url("pexels-photo-577585.jpeg");
   border: solid black 2px;
-  width: 500px;
-  height: 500px;
-  text-align: center;
-  margin-bottom: 50px;
-  clear: right;
+  width: 400px;
+  height: 400px;
 }
 
 .Health{
-  display: inline-block;
+  background-image: url("health.jpeg");
   border: solid black 2px;
-  width: 500px;
-  height: 500px;
-  text-align: center;
+  width: 400px;
+  height: 400px;
 }
 
 .Gaming{
-  display: inline-block;
+  background-image: url("gaming.jpeg");
   border: solid black 2px;
-  width: 500px;
-  height: 500px;
-  text-align: center;
+  width: 400px;
+  height: 400px;
 }
 
 .Sections{
-  text-align: center;
+  margin: auto;
+  /*background-color: lightblue;*/
+  display: flex;
+  height: 1000px;
+  width: 1000px;
+  border: solid black 2px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
