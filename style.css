@@ -11,6 +11,10 @@ header{
   margin-bottom: 50px;
 }
 
+a{
+  color: white;
+}
+
 h2{
   color: white;
   font-size: 60px;
@@ -20,28 +24,28 @@ h2{
 }
 
 .Reading{
-  background-image: url("reading.jpeg");
+  background-image: url("images/reading.jpeg");
   border: solid black 2px;
   width: 400px;
   height: 400px;
 }
 
 .Coding{
-  background-image: url("pexels-photo-577585.jpeg");
+  background-image: url("images/coding.jpeg");
   border: solid black 2px;
   width: 400px;
   height: 400px;
 }
 
 .Health{
-  background-image: url("health.jpeg");
+  background-image: url("images/health.jpeg");
   border: solid black 2px;
   width: 400px;
   height: 400px;
 }
 
 .Gaming{
-  background-image: url("gaming.jpeg");
+  background-image: url("images/gaming.jpeg");
   border: solid black 2px;
   width: 400px;
   height: 400px;
